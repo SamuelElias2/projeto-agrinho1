@@ -2,18 +2,18 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #32CD32;
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #228B22;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #2e7d32;
+  background-color: #008000;
   display: flex;
   justify-content: center;
   padding: 10px;
