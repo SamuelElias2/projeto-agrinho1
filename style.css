@@ -1,16 +1,23 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #008000;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
+h1 {
+    margin: 0;
+}
+
+/* Conteúdo principal */
 main {
     padding: 20px;
 }
@@ -20,33 +27,26 @@ section {
 }
 
 h2 {
-    color: #008000;
+    color: #333;
 }
 
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
 }
 
-.hidden {
-    display: none;
+li {
+    margin-bottom: 10px;
 }
 
-button {
-    background-color: #008000;
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-
+/* Rodapé */
 footer {
-    background-color: #008000;
+    background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
